@@ -12,4 +12,10 @@ btns.click(function(){
 	if(this.innerHTML=="happy"){
 		$('.cat .mouth').removeClass('sad')
 	}
+	if(this.innerHTML=="move-around"){
+		$('.cat .inner-eye-group').addClass('move-around')
+	}
+	if(this.innerHTML=="stay-still"){
+		$('.cat .inner-eye-group').removeClass('move-around')
+	}
 })

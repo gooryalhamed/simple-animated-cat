@@ -6,3 +6,15 @@
 	transform: scale(.5) rotate(180deg);
 	transform-origin: 340px 399px; /*left to right - down*/
 }
+.move-around{
+	animation:moveEyes 5s infinite;
+}
+
+@keyframes moveEyes{
+	20%{transform:translate(-18px,-20px)}
+	40%{transform: translate(0,0);}
+	65%{transform:translate(18px,-20px)}
+}
+@keyframes {
+
+}
